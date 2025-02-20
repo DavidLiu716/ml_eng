@@ -60,6 +60,6 @@ def score_headlines():
         logging.error(f"Error during headline scoring: {e}")
         return jsonify({'error': 'Internal server error'}), 500
 
-
 if __name__ == '__main__':
-    app.run(debug=True, port=8000)
+    logging.info("Starting the Flask application on port 8088.")
+    app.run(debug=True, host='0.0.0.0', port=8088)
