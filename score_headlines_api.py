@@ -62,4 +62,4 @@ def score_headlines():
 
 if __name__ == '__main__':
     logging.info("Starting the Flask application on port 8088.")
-    app.run(debug=True, host='0.0.0.0', port=8088)
+    app.run(debug=True, host='104.248.15.218', port=8088)
