@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 #import json
 #import logging
-
+import os
 
 
 
@@ -28,4 +28,7 @@ def main():
 
 if __name__ == '__main__':
     # Start the Streamlit app on port 9088 and allow external access
-    main()
+	
+
+    #main()
+    os.system("streamlit run test.py --server.address 104.248.15.218 --server.port 9088")
