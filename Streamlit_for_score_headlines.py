@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+import os
 
 # Web Service API URL
 URL = "http://104.248.15.218:8088/score_headlines"
