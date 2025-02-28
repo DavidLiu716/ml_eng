@@ -35,4 +35,4 @@ def main():
 
 if __name__ == '__main__':
   #main()
-  os.system("streamlit run test.py --server.address 104.248.15.218 --server.port 9088")
+  os.system("streamlit run Streamlit_for_score_headlines.py --server.address 104.248.15.218 --server.port 9088")
